@@ -24,6 +24,7 @@ class ScrollPage extends StatelessWidget {
     );
   }
 
+//comit texto
   Widget _colorFondo() {
     return Container(
       width: double.infinity,
