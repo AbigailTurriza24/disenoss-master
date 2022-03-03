@@ -126,7 +126,7 @@ class BotonesPage extends StatelessWidget {
         TableRow(
           children: [
             _crearBotonRedondeado(
-                Color.fromARGB(221, 85, 103, 206), Icons.border_all, 'General'),
+                Color.fromARGB(255, 76, 145, 235), Icons.border_all, 'General'),
             _crearBotonRedondeado(Color.fromARGB(255, 211, 116, 228),
                 Icons.directions_bus, 'Bus'),
           ],
