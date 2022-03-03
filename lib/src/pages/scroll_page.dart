@@ -62,6 +62,7 @@ class ScrollPage extends StatelessWidget {
     );
   }
 
+//boton beinvenido
   Widget _pagina2() {
     return Container(
       width: double.infinity,
@@ -74,7 +75,7 @@ class ScrollPage extends StatelessWidget {
           textColor: Colors.white,
           child: Padding(
             padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 20.0),
-            child: Text('¡Bienvenidos!', style: TextStyle(fontSize: 15.0)),
+            child: Text('Bienvenidos', style: TextStyle(fontSize: 15.0)),
           ),
           onPressed: () {},
         ),
