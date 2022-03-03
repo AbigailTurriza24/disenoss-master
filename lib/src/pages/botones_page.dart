@@ -25,6 +25,7 @@ class BotonesPage extends StatelessWidget {
         bottomNavigationBar: _bottomNavigationBar(context));
   }
 
+//iconos
   Widget _fondoApp() {
     final gradiente = Container(
       width: double.infinity,
