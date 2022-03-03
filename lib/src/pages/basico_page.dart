@@ -36,6 +36,7 @@ class BasicoPage extends StatelessWidget {
     );
   }
 
+//basic page
   Widget _crearTitulo() {
     return SafeArea(
       child: Container(
