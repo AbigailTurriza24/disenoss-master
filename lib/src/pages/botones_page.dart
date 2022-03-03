@@ -47,8 +47,8 @@ class BotonesPage extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(80.0),
               gradient: LinearGradient(colors: [
-                Color.fromRGBO(236, 98, 188, 1.0),
-                Color.fromRGBO(241, 142, 172, 1.0),
+                Color.fromARGB(212, 240, 65, 138),
+                Color.fromARGB(255, 233, 132, 166),
               ])),
         ));
 
@@ -85,8 +85,8 @@ class BotonesPage extends StatelessWidget {
   Widget _bottomNavigationBar(BuildContext context) {
     return Theme(
       data: Theme.of(context).copyWith(
-          canvasColor: Color.fromRGBO(55, 57, 84, 1.0),
-          primaryColor: Colors.pinkAccent,
+          canvasColor: Color.fromARGB(255, 59, 55, 92),
+          primaryColor: Color.fromARGB(255, 202, 106, 138),
           textTheme: Theme.of(context).textTheme.copyWith(
               caption: TextStyle(color: Color.fromRGBO(116, 117, 152, 1.0)))),
       child: BottomNavigationBar(
