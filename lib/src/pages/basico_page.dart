@@ -25,6 +25,7 @@ class BasicoPage extends StatelessWidget {
     ));
   }
 
+//comit imagen
   Widget _crearImagem() {
     return Container(
       width: double.infinity,
