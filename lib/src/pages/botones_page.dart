@@ -4,7 +4,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class BotonesPage extends StatelessWidget {
-//botones page
+//botones page hola
 
   @override
   Widget build(BuildContext context) {
