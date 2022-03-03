@@ -46,7 +46,7 @@ class BasicoPage extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text('Lago en lugar frio', style: estiloTitulo),
+                  Text('Santorini', style: estiloTitulo),
                   SizedBox(height: 7.0),
                   Text('Isla en el mar Egeo', style: estiloSubTitulo),
                 ],
