@@ -34,8 +34,8 @@ class BotonesPage extends StatelessWidget {
               begin: FractionalOffset(0.0, 0.6),
               end: FractionalOffset(0.0, 1.0),
               colors: [
-            Color.fromRGBO(52, 54, 101, 1.0),
-            Color.fromRGBO(35, 37, 57, 1.0),
+            Color.fromARGB(255, 103, 98, 161),
+            Color.fromARGB(255, 64, 69, 128),
           ])),
     );
 
@@ -85,7 +85,7 @@ class BotonesPage extends StatelessWidget {
   Widget _bottomNavigationBar(BuildContext context) {
     return Theme(
       data: Theme.of(context).copyWith(
-          canvasColor: Color.fromARGB(255, 59, 55, 92),
+          canvasColor: Color.fromARGB(255, 71, 67, 107),
           primaryColor: Color.fromARGB(255, 202, 106, 138),
           textTheme: Theme.of(context).textTheme.copyWith(
               caption: TextStyle(color: Color.fromRGBO(116, 117, 152, 1.0)))),
