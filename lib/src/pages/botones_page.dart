@@ -131,21 +131,21 @@ class BotonesPage extends StatelessWidget {
           ],
         ),
         TableRow(children: [
-          _crearBotonRedondeado(Colors.red, Icons.alarm_add, 'Alarma'),
+          _crearBotonRedondeado(Colors.red, Icons.shop, 'Buy'),
           _crearBotonRedondeado(
-              Color.fromARGB(255, 31, 255, 1), Icons.mail, 'Email'),
+              Color.fromARGB(255, 31, 255, 1), Icons.insert_drive_file, 'File'),
         ]),
         TableRow(children: [
           _crearBotonRedondeado(Color.fromARGB(255, 211, 198, 16),
-              Icons.location_on, 'Ubicacion'),
-          _crearBotonRedondeado(Color.fromARGB(255, 250, 22, 129),
-              Icons.account_box_rounded, 'General'),
+              Icons.movie_filter, 'Entertaiment'),
+          _crearBotonRedondeado(
+              Color.fromARGB(255, 250, 22, 129), Icons.cloud, 'Grocery'),
         ]),
         TableRow(children: [
           _crearBotonRedondeado(
-              Color.fromARGB(255, 18, 238, 172), Icons.add_call, 'Llmadas'),
-          _crearBotonRedondeado(Color.fromARGB(255, 255, 103, 1),
-              Icons.add_to_drive_sharp, 'Driver'),
+              Color.fromARGB(255, 18, 238, 172), Icons.collections, 'Photos'),
+          _crearBotonRedondeado(
+              Color.fromARGB(255, 255, 103, 1), Icons.help_outline, 'General'),
         ])
       ],
     );
