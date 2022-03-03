@@ -47,8 +47,8 @@ class BotonesPage extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(80.0),
               gradient: LinearGradient(colors: [
-                Color.fromARGB(212, 240, 65, 138),
-                Color.fromARGB(255, 233, 132, 166),
+                Color.fromARGB(210, 247, 100, 161),
+                Color.fromARGB(255, 248, 157, 187),
               ])),
         ));
 
@@ -125,27 +125,29 @@ class BotonesPage extends StatelessWidget {
       children: [
         TableRow(
           children: [
-            _crearBotonRedondeado(Colors.blue, Icons.border_all, 'General'),
             _crearBotonRedondeado(
-                Colors.purpleAccent, Icons.directions_bus, 'Bus'),
+                Color.fromARGB(221, 85, 103, 206), Icons.border_all, 'General'),
+            _crearBotonRedondeado(Color.fromARGB(255, 211, 116, 228),
+                Icons.directions_bus, 'Bus'),
           ],
         ),
         TableRow(children: [
-          _crearBotonRedondeado(Colors.red, Icons.shop, 'Buy'),
           _crearBotonRedondeado(
-              Color.fromARGB(255, 31, 255, 1), Icons.insert_drive_file, 'File'),
+              Color.fromARGB(255, 226, 90, 80), Icons.shop, 'Buy'),
+          _crearBotonRedondeado(Color.fromARGB(255, 122, 240, 107),
+              Icons.insert_drive_file, 'File'),
         ]),
         TableRow(children: [
-          _crearBotonRedondeado(Color.fromARGB(255, 211, 198, 16),
+          _crearBotonRedondeado(Color.fromARGB(255, 235, 238, 59),
               Icons.movie_filter, 'Entertaiment'),
           _crearBotonRedondeado(
-              Color.fromARGB(255, 250, 22, 129), Icons.cloud, 'Grocery'),
+              Color.fromARGB(255, 252, 126, 185), Icons.cloud, 'Grocery'),
         ]),
         TableRow(children: [
           _crearBotonRedondeado(
-              Color.fromARGB(255, 18, 238, 172), Icons.collections, 'Photos'),
+              Color.fromARGB(255, 135, 214, 190), Icons.collections, 'Photos'),
           _crearBotonRedondeado(
-              Color.fromARGB(255, 255, 103, 1), Icons.help_outline, 'General'),
+              Color.fromARGB(255, 241, 156, 98), Icons.help_outline, 'General'),
         ])
       ],
     );
